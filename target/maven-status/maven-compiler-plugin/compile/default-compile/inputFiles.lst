@@ -1,0 +1,15 @@
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/FrontController.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/UnknownCommand.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Data/DBConnector.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/FunctionLayer/LoginException.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/Login.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/GetOrders.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Data/DataMapper.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/FunctionLayer/LogicFacade.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/FunctionLayer/buildCalculator.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Data/user.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/Register.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Data/Order.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/PlaceOrder.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/Commands/Commands.java
+/Users/frederik/NetBeansProjects/lego/src/main/java/FunctionLayer/Orderlist.java
