@@ -21,12 +21,15 @@ import javax.servlet.http.HttpServletResponse;
 public class GetOrders extends Commands {
 
     @Override
-    String execute(HttpServletRequest request, HttpServletResponse response) throws LoginException {
+    String execute(HttpServletRequest request, HttpServletResponse response) throws LoginException, InvalidInputException {
         String user = (String) request.getSession().getAttribute("email");
         List<Order> orders = LogicFacade.getOrders(user);
+        if(orders != null){
         request.getSession().setAttribute("order", orders);
-        
         return "getOrders";
+        }else{
+            throw new InvalidInputException("No orders to be seen");
+        }
     }
 
     
